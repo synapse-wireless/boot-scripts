@@ -80,7 +80,7 @@ else
 	gadget_partition="/dev/${boot_partition}"
 fi
 
-modprobe g_multi file=${gadget_partition} cdrom=0 stall=0 removable=1 nofua=1 iSerialNumber=${SERIAL_NUMBER} iManufacturer="Synapse Wireless"  iProduct="E3B" host_addr=${cpsw_1_mac}
+modprobe g_multi file=${gadget_partition} cdrom=0 stall=0 removable=1 nofua=1 iSerialNumber=${SERIAL_NUMBER} iManufacturer="Synapse Wireless"  iProduct="E15" host_addr=${cpsw_1_mac}
 
 sleep 1
 
